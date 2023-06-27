@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        a {
+            color: rgb(237, 29, 195);
+            text-decoration: none;
+            font-weight: bold;
+/* TIRAR O SUBLINHADO AUTOMATICO - text-decoration: none;
+COLOCAR EM NEGRITO - font-weight: bold;
+*/
+        }
+        a:visited {
+            color: blue;
+/*AQUI QUANDO JÁ FOI VISITADO FICA NA COR ESCOLHIDA*/
+        }
+        a:hover {
+            text-decoration: underline;
+/*COLOCAR OPÇÃO DE APARECER O SUBLINHADO QUANDO PASSAR O MOUSE -  text-decoration: underline;*/
+        }
+        a:active {
+            color: brown;
+/*AQUI FICA NA COR ESCOLHIDA NA HORA QUE É CLICADO*/
+        }
+        .especial::before {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: antiquewhite;
+        }
+        .especial::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: antiquewhite;
+        }
+
+        /*a::before {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: antiquewhite;
+        } */
+       
+        /*a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: antiquewhite;
+        } */
+/*
+SIMBOLOGIAS USADAS:
+#  = id
+.  = class
+:  = pseudo-class
+:: = pseudo-element
+>  = Children
+*/
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+<ul>
+    <li><a href="https://gustavoguanabara.github.io" class="especial">Repositóio GitHub</a></li>
+    <li><a href="https://www.youtube.com/watch?v=33tj5B5UDA4">Canal Youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com">Site Curso em Vídeo</a></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+Em HTML é "id =" em CSS é "#"
+Em TTML é "clase" em CSS é "." 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color:  rgba(139, 238, 139, 0.437); */
+    background-color: #79fc8dc6;
+}
+h1 {
+    color: #26582e;
+}
+h1#principal {
+    text-align: center;
+    background-color: #72EF84;
+    color: #26582e;
+   /* background-color: aliceblue; */
+}
+h2 {
+    color: #2d7a3a;
+    /* color: rgb(94, 186, 94); */
+}
+
+.basico {
+    color: rgb(13, 123, 219);
+}
+.intermediario {
+    color: rgb(233, 136, 17);
+}
+.avançado {
+    color: purple;
+}
+.texto {
+    color: rgb(234, 49, 80);
+    
+}
